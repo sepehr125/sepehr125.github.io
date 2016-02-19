@@ -3,39 +3,53 @@
 <head>
 <title>Sepehr Sadighpour | Data Scientist</title>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+
 <style type="text/css">
-	body {
+	.container::before {
+		content: "";
 		background: url('img/viz_unlabeled.png') no-repeat top center;
+		opacity: 0.04;
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		left: 0;
+		z-index: -1;
 	}
-	#wrapper, #feed {
-		background: rgba(255, 255, 255, 0.9);
-		float: none; 
-		margin: 0 auto;
-		padding: 20px;
-		max-width: 900px;
-		width: 80%;
+	.container {
+		min-height: 900px;
+	}
+	main p, main li {
+		font-size: 120%;
+		font-family: Helvetica;
 	}
 </style>
 </head>
 
 <body>
 
-<div id="wrapper">
-<h2 style="float:left">Sepehr Sadighpour</h2>
-<ul style="float:right; padding-top: 25px" class="list-inline">
-	<li><a href="https://github.com/sepehr125">GitHub</a></li>
-	<li><a href="https://linkedin.com/in/sepehrs">LinkedIn</a></li>
-	<li><a href="http://sepehr.xyz/cv.pdf">CV</a></li>
-	<li><a class="btn btn-primary" href="mailto:sepehr125@gmail.com">Email</a></li>
-</ul>
-<p id="intro" style="clear:both; padding: 20px">I am a data scientist in San Francisco, CA, currently looking for full-time opportunities, ideally doing Natural Language Processing and a mix of supervised and unsupervised machine learning.</p>
+<div class="container">
+	<h1 class="col-lg-12">Sepehr Sadighpour</h1>
+	<main class="col-lg-6">
+
+		<p>I am a data scientist in San Francisco, CA, currently looking for full-time opportunities.</p>
+
+		<p>I recently made <a href="http://sepehr.xyz/sciexplorer">SciExplorer</a>, which recommends scientific papers based on their similarity as paragraph vector representations (<a href="http://arxiv.org/abs/1405.4053">Mikolov 2014</a>).</p>
+
+		<ul class="list-inline">
+			<li><a href="https://github.com/sepehr125">GitHub</a></li>
+			<li><a href="https://linkedin.com/in/sepehrs">LinkedIn</a></li>
+			<li><a href="http://sepehr.xyz/cv.pdf">CV</a></li>
+			<li><a href="mailto:hi@sepehr.xyz">Email Me!</a></li>
+		</ul>
+	</main>
 
 
-	<div id="feed">
+	<aside class="col-lg-6">
 		<a class="twitter-timeline" href="https://twitter.com/sepehr125" data-widget-id="643528420584894464">Tweets by @sepehr125</a>
-	</div>
+	</aside>
 
-</div> <!-- #wrapper -->
-</body>
+</div> <!-- .container -->
 
+<
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
