@@ -17,7 +17,7 @@ a { color: #990003 }
 a:hover { text-decoration: none; }
 strong { font-weight: bold; }
 li { line-height: 15px; padding: 3px 0;}
-p.enlarge { font-size: 144%; padding-right: 6.5em; line-height: 24px; }
+p.enlarge { font-size: 1.2em; padding-right: 5.5em; line-height: 1.55em; }
 p.enlarge span { color: #000 }
 .contact-info li { margin: 2px 0; text-align: right; font-size: 110%;} 
 #bd .first h2 { color: rgba(51, 51, 51, 0.61); font-style: italic; }
