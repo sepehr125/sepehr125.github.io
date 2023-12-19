@@ -11,7 +11,7 @@ body { font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","A
 h2 { font-size: 152% }
 h3, h4 { font-size: 122%; }
 h1, h2, h3, h4 { color: #333; }
-date {color: #333, font-size: 122%}
+.job date {color: #333; display: block; margin: 10px 0 3px;}
 p { font-size: 100%; line-height: 18px; padding-right: 3em; }
 a { color: #990003 }
 a:hover { text-decoration: none; }
@@ -26,9 +26,11 @@ p.enlarge span { color: #000 }
 /* //-- section styles -- */
 
 .job, .edu { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
-date { position: absolute; top: 0.35em; right: 0 }
-.job h2, .edu h2, .job h3, .edu h3 {margin-bottom: 6px;}
+/* date { position: absolute; top: 0.35em; right: 0 } */
+.job h2, .edu h2, .job h3, .edu h3 {margin: 8px 0px;}
 .job:last-child, .edu:last-child {border: 0; margin-bottom: 0; padding-bottom: 0.5em}
+
+ul.tech {font-style: italic; margin-top: 5px;}
 
 .skills-list ul { margin: 0; }
 .skills-list li { margin: 3px 0; padding: 3px 0; }
